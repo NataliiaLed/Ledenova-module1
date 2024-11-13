@@ -19,7 +19,6 @@ public class FileService {
                 char ch = (char) r;
                 char transformed = charTransformer.transform(ch);
                 printWriter.print(transformed);
-                System.out.print(transformed);
             }
 
         }
